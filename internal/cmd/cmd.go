@@ -70,6 +70,7 @@ var (
 						controller.Order.List,   //订单列表
 						controller.Order.Detail, //订单详情
 						backend.Article,         //文章管理&CMS
+						controller.Seckill,
 					)
 				})
 			})

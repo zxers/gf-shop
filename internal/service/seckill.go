@@ -13,6 +13,8 @@ import (
 type (
 	ISeckill interface {
 		Create(ctx context.Context, in model.AddSecKillActivityInput) (out model.AddSecKillActivityOutput, err error)
+		Update(ctx context.Context, in model.SecKillActivityUpdateInput) error
+		Detail(ctx context.Context, in model.SecKillActivityDetailInput) (out *model.SecKillActivityDetailOutput, err error)
 	}
 )
 
